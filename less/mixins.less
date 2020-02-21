@@ -26,6 +26,21 @@
         background-color: @FontC;
         color: @BackG;
     }
+}
+
+//animation opening
+.AnimateStart(@Timer){
+    animation-name: start-up;
+    animation-duration:@Timer;
 
 
+    @keyframes start-up{
+        from{
+            opacity: 0;
+            width:0;
+        }
+        to{ 
+            opacity: 1;
+        }
+    }
 }

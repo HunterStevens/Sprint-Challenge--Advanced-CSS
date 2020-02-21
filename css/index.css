@@ -161,6 +161,8 @@ p {
   margin: 0 auto;
 }
 .Navi {
+  animation-name: start-up;
+  animation-duration: 3s;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -171,6 +173,15 @@ p {
   border: thin 1px #F1F1F1;
   color: #454A59;
   padding-top: 11px;
+}
+@keyframes start-up {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 .Navi div {
   padding-bottom: 15px;
@@ -208,6 +219,19 @@ footer {
 @media (max-width:500px) {
   footer {
     width: 100%;
+  }
+}
+.home {
+  animation-name: start-up;
+  animation-duration: 3s;
+}
+@keyframes start-up {
+  from {
+    opacity: 0;
+    width: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 @media (max-width:500px) {
