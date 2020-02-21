@@ -190,6 +190,11 @@ p {
   color: #454A59;
   text-decoration: none;
 }
+@media (max-width:500px) {
+  .Navi nav {
+    width: 85%;
+  }
+}
 footer {
   color: #22283B;
   background: #f4f4f4;
