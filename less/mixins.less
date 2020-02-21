@@ -1,1 +1,31 @@
 // Mixins Here
+.ColomnFlex(@Direct:column,@justify:center, @align:center){
+    display: flex;
+    flex-direction: @Direct;
+    justify-content: @justify;
+    align-items: @align;
+
+}
+.NaviStyle(){
+    background-color: @nav-bg;
+    border: thin 1px @nav-border;
+    color:@nav-font;
+}
+
+.BtnStyle(@BackG, @FontC, @BorderR){
+    font-size:1.8rem;
+    width: 28%;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    background-color: @BackG;
+    color: @FontC;
+    border-radius: @BorderR;
+
+    &:hover{
+        background-color: @FontC;
+        color: @BackG;
+    }
+
+
+}
