@@ -33,14 +33,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the difference between an adaptive website and a fully responsive website?
+Adaptive websites are a bit slower than responsive due to Adaptive needing to load ALL possible layouts. Responsive only has to load one that works across all platforms. Plus Responsive uses relative units to give fluid layout responses but Adaptive uses fixed unites to adapt to specific devices layout.
 
 2. Describe what it means to be mobile first vs desktop first.
+Other than Mobile First meaning the website was designed first as a mobile website while desktops, well for desktop websites, Mobile also means the website has a more general layout for verticle design and uses Min-Width media querries when expanding. However, Desktops go for horizontal and wrapping design with Max-Width in media querries.
+
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
+62.5% allows the text to shrink down to 10px giving us an easier time calculating when using rem units. Rem units changes the size of the font based on the given default size.
 
 4. How would you describe preprocessing to someone new to CSS?
+Preprocessing is a labrary of code that expands CSS options and makes it easier to code.
+
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+My favorite would be the Mixins (as well as parametric Mixins) as that allows you to compile common groups of code into a single line used multiple times. Probably the most dificult concept would be the operations or where to put @imports.
+
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
